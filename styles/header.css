@@ -1,0 +1,44 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.5rem 6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
